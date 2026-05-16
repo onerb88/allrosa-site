@@ -1,5 +1,5 @@
 const fs = require('fs');
-const svgDefs = fs.readFileSync('D:/iCloudDrive/Claude/1-projects/agencia-web/sites/allrosa/svg-defs.html', 'utf8');
+const svgDefs = fs.readFileSync('./svg-defs.html', 'utf8');
 
 const html = `<!DOCTYPE html>
 <html lang="pt-BR">

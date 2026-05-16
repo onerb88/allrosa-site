@@ -10,13 +10,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Build
-        run: node --input-type=commonjs < build.js
-
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
